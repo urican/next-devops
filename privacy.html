@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Next DevOps — Privacy policy</title>
+<style>
+  :root { --ink: #1f2330; --muted: #5d6475; --line: #e4e6ee; --accent: #e8505b; --accent2: #f59e0b; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 16px/1.65 "Segoe UI", system-ui, -apple-system, sans-serif; color: var(--ink); background: #f7f8fb; }
+  header { background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #fff; padding: 40px 24px; text-align: center; }
+  header h1 { margin: 0; font-size: 32px; }
+  header p { margin: 6px 0 0; opacity: 0.95; }
+  main { max-width: 860px; margin: 28px auto 48px; padding: 0 20px; }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 28px 32px; box-shadow: 0 10px 30px rgba(20, 24, 40, 0.06); }
+  h2 { font-size: 20px; margin: 28px 0 8px; }
+  h2:first-child { margin-top: 0; }
+  ul { padding-left: 20px; }
+  li { margin: 4px 0; }
+  .muted { color: var(--muted); }
+  a { color: #c2343f; }
+  footer { text-align: center; color: var(--muted); font-size: 14px; padding: 0 20px 40px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Privacy policy</h1>
+  <p>Next DevOps · Last updated: 26 November 2026</p>
+</header>
+<main>
+<div class="card">
+  <h2>About this policy</h2>
+  <p>Next DevOps is a Windows desktop app. This policy explains what happens to your data when you connect your personal Google Calendar to Next DevOps. Connecting Google Calendar is optional.</p>
+
+  <h2>What Next DevOps reads from your Google account</h2>
+  <p>Only after you connect your Google account and allow it on Google's page, Next DevOps reads:</p>
+  <ul>
+    <li><b>Your calendar list</b> (scope <code>calendar.calendarlist.readonly</code>): the names, colours and your access to each calendar.</li>
+    <li><b>Your calendar events</b> (scope <code>calendar.events</code>): titles, times, places, guests and their replies, reminders, descriptions and video-meeting links.</li>
+    <li><b>Your free / busy times</b> (scope <code>calendar.freebusy</code>): only when you turn on “Keep Google busy times free in Find a time”.</li>
+  </ul>
+  <p>Next DevOps does not read your Gmail, your contacts, your files or anything else in your Google account.</p>
+
+  <h2>How Next DevOps uses it</h2>
+  <ul>
+    <li>To show your Google Calendar events in Next DevOps beside your work calendar, and to remind you of them.</li>
+    <li>To add, change, move or delete events and to reply to invitations — only when you do it.</li>
+    <li>To keep the times you are busy in Google Calendar free when you look for a time for a meeting — only if you turn this on.</li>
+    <li><b>AI Assistant:</b> when you ask the Assistant inside Next DevOps about your calendar, the events it needs for your question are sent to Anthropic's Claude AI model under your own Claude account, to answer you. This happens only when you ask, and it is subject to Anthropic's terms for your account. Next DevOps itself does not use your data to train any AI model.</li>
+  </ul>
+
+  <h2>Where your data is kept</h2>
+  <ul>
+    <li>Your calendar data goes directly between your PC and Google. The developer of Next DevOps runs no server for this and receives none of your data.</li>
+    <li>Your Google sign-in is kept on your PC only, encrypted for your Windows user (Windows Data Protection).</li>
+    <li>To open the calendar quickly, a copy of your events (without their descriptions) from four weeks back to twelve weeks ahead is kept in your Windows user profile on your PC. Older copies are deleted automatically.</li>
+  </ul>
+
+  <h2>Sharing</h2>
+  <p>Your Google data is not sold, not used for advertising, and not shared with anyone, except with Anthropic when you ask the AI Assistant as described above. No person reads your data, unless you ask for help and show it yourself.</p>
+  <p>Next DevOps's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Removing your data</h2>
+  <ul>
+    <li>In Next DevOps: Settings → Calendar → Google → <b>Disconnect</b>. This removes your sign-in and the copy of your events from your PC and tells Google to end Next DevOps's access.</li>
+    <li>In your Google account: you can also remove Next DevOps at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+  </ul>
+  <p>Disconnecting never deletes anything in your Google Calendar.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version is published on this page with a new date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: open an issue at <a href="https://github.com/urican/next-devops/issues">github.com/urican/next-devops/issues</a>.</p>
+</div>
+</main>
+<footer><a href="./">Next DevOps</a> · Privacy policy</footer>
+</body>
+</html>
